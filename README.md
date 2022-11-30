@@ -8,9 +8,13 @@ so we use cycleGAN, transfer daytime image to night time image to train night ti
 this cycleGAN code from this [repo](https://github.com/hanyoseob/youtube-cnn-007-pytorch-cyclegan)
 
 ## converted image
+we use cityscapes data and dark zurich data to train CycleGAN 
 
-this is input image from cityscapes dataset and segmentation mask 
+![input](./images/day1.png)
+![input](./images/day2.png)
 
-this is input image from dark zurich 
 
-this is output result 
+![output](./images/night1.png)
+![output](./images/night2.png)
+
+so we can use nighttime segmentaton like model adaptation 
